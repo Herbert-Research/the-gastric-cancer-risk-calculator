@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as described below.
+title: Gastric Cancer Risk Stratification and Survival Modeling
+version: 0.1.1
+date-released: 2025-11-29
+authors:
+  - family-names: Dressler
+    given-names: Maximilian Herbert
+    orcid: https://orcid.org/0009-0004-8776-2450
+license: MIT
+repository-code: https://github.com/Herbert-Research/the-gastric-cancer-risk-calculator
+url: https://github.com/Herbert-Research/the-gastric-cancer-risk-calculator
+keywords:
+  - gastric cancer
+  - risk stratification
+  - cox model
+  - survival analysis
+preferred-citation:
+  type: software
+  authors:
+    - family-names: Dressler
+      given-names: Maximilian Herbert
+      orcid: https://orcid.org/0009-0004-8776-2450
+  title: Gastric Cancer Risk Stratification and Survival Modeling
+  year: 2025
+  version: 0.1.1
+  url: https://github.com/Herbert-Research/the-gastric-cancer-risk-calculator

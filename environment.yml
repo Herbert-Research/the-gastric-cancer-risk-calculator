@@ -1,0 +1,16 @@
+name: gastric-cancer-risk
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9,<3.12
+  - pandas==2.2.3
+  - numpy==1.26.4
+  - matplotlib==3.9.2
+  - seaborn==0.13.2
+  - scikit-learn==1.5.2
+  - pip
+  - pip:
+    - hypothesis==6.115.6
+    - pytest>=8.0
+    - pytest-cov>=4.1.0

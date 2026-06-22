@@ -1,0 +1,59 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments (not needed for PhD reviewers)
+.venv/
+.venv-*/
+venv/
+ENV/
+env/
+
+# Testing cache (pytest generates this automatically)
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables (may contain sensitive info)
+.env
+.env.local
+
+# Python egg files
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.joblib_temp/
+
+# Matplotlib cache
+.matplotlib/
+
+# Hypothesis testing cache
+.hypothesis/
+
+# Generated images (keep only curated ones in docs/images/)
+*.png
+!docs/images/*.png
+
+# TCGA clinical data (licensed, not hosted in repository)
+data/tcga_2018_clinical_data.tsv

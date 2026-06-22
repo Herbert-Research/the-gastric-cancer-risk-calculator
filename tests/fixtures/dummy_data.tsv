@@ -1,0 +1,6 @@
+Patient ID	Diagnosis Age	American Joint Committee on Cancer Tumor Stage Code	Neoplasm Disease Lymph Node Stage American Joint Committee on Cancer Code	Neoadjuvant Therapy Type Administered Prior To Resection Text	Subtype	Disease Free Status	Progression Free Status	Sex	ICD-10 Classification
+P001	55	T2	N1	None	CIN	0:DiseaseFree	0:DiseaseFree	Male	C16.3
+P002	67	T3	N2	Chemo	MSI	1:Recurred/Progressed	1:Recurred/Progressed	Female	C16.2
+P003	45	T1	N0	None	GS	0:DiseaseFree	0:DiseaseFree	Male	C16.0
+P004	72	T4	N3	None	EBV	1:Recurred/Progressed	1:Recurred/Progressed	Female	C16.5
+P005	60	T2	N0	None	Unknown	censored	censored	Male	C16.9

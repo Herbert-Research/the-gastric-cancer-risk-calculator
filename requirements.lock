@@ -1,0 +1,34 @@
+# Fully pinned transitive dependencies for reproducible builds.
+# Generated with: pip freeze (Python 3.13.6, Windows 10, 2026-06-09)
+# Use: pip install -r requirements.lock
+colorama==0.4.6
+contourpy==1.3.3
+coverage==7.12.0
+cycler==0.12.1
+fonttools==4.61.0
+hypothesis==6.115.6
+iniconfig==2.3.0
+joblib==1.5.2
+kiwisolver==1.4.9
+matplotlib==3.9.2
+narwhals==2.13.0
+numpy==1.26.4
+packaging==25.0
+pandas==2.2.3
+pillow==12.0.0
+pluggy==1.6.0
+pyparsing==3.2.5
+pytest==8.3.5
+pytest-cov==7.0.0
+python-dateutil==2.9.0.post0
+pytz==2025.2
+scikit-learn==1.5.2
+scipy==1.16.3
+seaborn==0.13.2
+six==1.17.0
+sortedcontainers==2.4.0
+threadpoolctl==3.6.0
+tzdata==2025.2
+# Optional interactive demo (app.py); pip resolves transitive deps.
+streamlit==1.39.0
+watchdog==5.0.3

@@ -1,0 +1,31 @@
+{
+  "id": "heuristic_klass_v1",
+  "name": "Educational Demonstration Model (KLASS-inspired structure)",
+  "description": "Illustrative logistic regression model for teaching computational risk assessment. NOT clinically validated. Coefficients are pedagogical approximations inspired by published KLASS trial stage stratification patterns, not derived from formal model training.",
+  "citation": "Demonstration model by M.H. Dressler (2025). Structure inspired by: (1) Kim W, et al. Lancet. 2019;393(10178):1244-1253 (KLASS-02 trial); (2) Hyung WJ, et al. JAMA Surg. 2021;156(7):655-663 (KLASS risk patterns). NOT a reproduction of any published prediction model.",
+  "development_status": "Uncalibrated educational tool - not for clinical use",
+  "intercept": -2.25,
+  "risk_floor": 0.02,
+  "risk_ceiling": 0.95,
+  "t_stage_weights": {
+    "T1": 0.0,
+    "T2": 0.9,
+    "T3": 1.6,
+    "T4": 2.2
+  },
+  "n_stage_weights": {
+    "N0": 0.0,
+    "N1": 1.1,
+    "N2": 1.9,
+    "N3": 2.7
+  },
+  "age_weight": {
+    "weight": 0.018,
+    "pivot": 50,
+    "positive_delta_only": true
+  },
+  "tumor_size_weight": {
+    "weight": 0.12
+  },
+  "ln_ratio_weight": 2.4
+}
