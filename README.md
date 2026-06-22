@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/status-educational%20demo-yellow)
 ![Validation](https://img.shields.io/badge/clinical%20validation-NOT%20VALIDATED-red)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![CI](https://github.com/Herbert-Research/f-r-PhD-calculator/actions/workflows/ci.yml/badge.svg?branch=main)
+![CI](https://github.com/Herbert-Research/the-gastric-cancer-risk-calculator/actions/workflows/ci.yml/badge.svg?branch=main)
 ![Coverage](https://img.shields.io/badge/coverage-92%25-brightgreen)
 
 ⚠️ **EDUCATIONAL USE ONLY - NOT FOR CLINICAL DECISION MAKING** ⚠️
